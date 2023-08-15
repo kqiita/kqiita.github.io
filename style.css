@@ -1,31 +1,73 @@
-body{
+body {
     font-family: "Helvetica Neue",
-    Arial,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-    Meiryo,
-    sans-serif;
-    
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+    padding: 0em;
+    margin: 0em;
 }
-#title{
-    display: inline;
-    margin: 0 auto;
 
+#title {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+    display: flex; 
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
-#navigation_bar{
-    
+#title > {
+    max-height: 6rem;
+}
+#title>img {
+    float: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    max-width: 6rem;
+    max-height: 6rem;
+}
+
+#navigation_bar {
+
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
     align-items: center;
     width: 100vw;
+    /* 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
+    */
+
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
 }
-.navigation_bar_content{
-    margin: 0.5em 1em;
+
+.navigation_bar_content {
+
+    padding: 1.0em 1.0em;
+
+    border-right: 1px black solid;
 }
-#home_content{
+
+.navigation_bar_content:first-child {
+    border-left: 1px black solid;
+}
+
+.navigation_bar_content a {
+    text-decoration: none;
+    color: unset;
+}
+
+#home_content {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -33,5 +75,9 @@ body{
     align-items: center;
     width: 100vw;
     margin: 0 auto;
-    
+
+}
+#home_content > div{
+    width: 90vw;
+    text-align: left;
 }
