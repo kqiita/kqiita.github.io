@@ -19,6 +19,8 @@ body {
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
+
+    background-color: rgba(225, 234, 205, 1.0);
 }
 
 #title>* {
