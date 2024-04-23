@@ -13,10 +13,6 @@ body {
     padding: 0;
 }
 
-#content {
-    background-color: white;
-}
-
 #title {
     display: flex;
     flex-direction: column;
@@ -75,7 +71,7 @@ body {
     
 }
 
-#home_content {
+#main_content {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -86,7 +82,7 @@ body {
 
 }
 
-#home_content>div {
+#main_content>div {
     width: 90%;
     text-align: left;
 }
@@ -94,10 +90,6 @@ body {
 @media screen and (min-width:481px) {}
 
 @media screen and (min-width:960px) {
-    #content {
-        background-color: white;
-    }
-
     #title {
         display: flex;
         flex-wrap: nowrap;
@@ -179,7 +171,7 @@ body {
         color: unset;
     }
 
-    #home_content {
+    #main_content {
         display: flex;
         flex-direction: column;
         align-content: center;
@@ -190,7 +182,7 @@ body {
 
     }
 
-    #home_content>div {
+    #main_content>div {
         width: 90%;
         text-align: left;
     }
