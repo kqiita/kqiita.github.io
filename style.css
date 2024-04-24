@@ -56,6 +56,9 @@ body {
     border-bottom: 1px black solid;
 
     text-align: center;
+
+    text-decoration: none;
+    color: unset;
     
 }
 #navigation_bar>a:hover {
@@ -64,11 +67,6 @@ body {
 #navigation_bar>a img {
     display: inline-block;
     padding: 0em 1em;
-}
-#navigation_bar a {
-    text-decoration: none;
-    color: unset;
-    
 }
 
 #main_content {
@@ -85,6 +83,11 @@ body {
 #main_content>div {
     width: 90%;
     text-align: left;
+}
+
+#sns a >img{
+
+    height: 80px;
 }
 
 @media screen and (min-width:481px) {}
