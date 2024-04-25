@@ -1,5 +1,6 @@
 :root{
-    --main-hover-bg-color: rgba(225, 234, 205, 0.3);;
+    --main-color:rgba(225, 234, 205, 1.0);
+    --main-hover-bg-color: rgba(225, 234, 205, 0.3);
 }
 html {
     min-height: 100%;

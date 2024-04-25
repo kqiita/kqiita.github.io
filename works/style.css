@@ -1,0 +1,45 @@
+:root{
+    --main-color:rgba(225, 234, 205, 1.0);
+    --main-hover-bg-color: rgba(225, 234, 205, 0.3);
+}
+
+#main_content > div{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+#main_content > div >div {
+    margin: 1rem;
+    border: 4px solid black;
+    border-radius: 8px;
+}
+
+#main_content > div > div a {
+    padding: 0%;
+    text-decoration: none;
+    color: unset;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 4em 1fr;
+
+
+}
+#main_content > div >div  a > h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid black;
+    background-color: white;
+}
+#main_content > div >div  a > h3:hover{
+
+    background-color: var(--main-hover-bg-color);
+}
+#main_content > div img {
+    display: block;
+    align-self: center;
+    width: min(100%);
+}
