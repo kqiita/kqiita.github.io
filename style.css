@@ -179,5 +179,17 @@ body {
         width: 90%;
         text-align: left;
     }
+    #icons > div{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(256px,1fr));
+    
+    }
+    #icons > div > div {
+        margin: 5px;
+    }
+    #icons > div >div >img {
+        max-width: 256px;
+        max-height: 256px;
+    }
 
 }
