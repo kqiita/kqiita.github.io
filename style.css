@@ -2,6 +2,10 @@
     --main-color:rgba(225, 234, 205, 1.0);
     --main-hover-bg-color: rgba(225, 234, 205, 0.3);
 }
+
+.italic{
+    font-style: italic;
+}
 html {
     min-height: 100%;
 }
@@ -100,6 +104,19 @@ body {
     margin: 0 auto;
     height: 80px;
 }
+#icons > div{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(256px,1fr));
+
+}
+#icons > div > div {
+    margin: 5px;
+}
+#icons > div >div >img {
+    max-width: 256px;
+    max-height: 256px;
+}
+
 
 @media screen and (min-width:481px) {}
 
