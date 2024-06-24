@@ -1,0 +1,16 @@
+changelogs=[
+    {
+        "year":"2024",
+        "month":"06",
+        "day":"17",
+        "type":"repair",
+        "detail":"iconの画像のスタイルを直しました"
+    },
+    {
+        "year":"2024",
+        "month":"06",
+        "day":"24",
+        "type":"new",
+        "detail":"更新情報のページを追加しました"
+    }
+]
