@@ -1,0 +1,32 @@
+body{
+    padding: 0 auto;
+}
+
+#controller{
+    display: grid;
+    grid-template:
+        ". forward ." 100px 
+        "left . right" 100px
+        ". back ." 100px /1fr 1fr 1fr;
+}
+.controller_btn{
+    border: 0;
+    background-color: mistyrose;
+}
+.controller_btn:active{
+    background-color: rosybrown;
+}
+#btn_forward{
+    grid-area: forward;
+    
+}
+#btn_left{
+    grid-area: left;    
+}
+#btn_right{
+    grid-area: right;
+    
+}
+#btn_back{
+    grid-area: back;
+}
