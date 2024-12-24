@@ -12,5 +12,12 @@ changelogs=[
         "day":"24",
         "type":"new",
         "detail":"更新情報のページを追加しました"
+    },
+    {
+        "year":"2024",
+        "mont":"12",
+        "day":"24",
+        "type":"new",
+        "detail":"blog/2024/jazzfusionを追加しました"
     }
 ]
