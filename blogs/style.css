@@ -40,9 +40,7 @@
 
     background-color: var(--main-hover-bg-color);
 }
-#main_content > div >div  a > img{
 
-}
 #main_content > div img {
     display: block;
     align-self: center;

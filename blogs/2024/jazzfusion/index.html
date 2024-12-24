@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>はんかくくんのページ|BLOGS</title>
+    <meta name="discription" content="きーたくん（はんかくくん）のページ 某ウェブサイトとは違います blogs">
+    <!--icon-->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/syahuneko-ver1-r225g234b205.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/syahuneko-ver1-r225g234b205.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/syahuneko-ver1-r225g234b205.png" />
+    <link rel="apple-touch-icon-precomposed" href="/img/syahuneko-ver1-r225g234b205.png" />
+    <link rel="icon" sizes="any" href="/img/syahuneko-ver1-r225g234b205.png" color="#0bd">
+    <!--OGP-->
+    <meta property="og:url" content="https://kqiita.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="はんかくくんのページ|BLOGS" />
+    <meta property="og:description" content="きーたくん（はんかくくん）のページ 某ウェブサイトとは違います blogs" />
+    <meta property="og:site_name" content="はんかくくんのページ" />
+    <meta property="og:image" content="https://kqiita.github.io/img/syahuneko-ver1-r225g234b205.png" />
+    <!---->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="/main.js" defer></script>
+
+</head>
+
+<body>
+    <div id="content">
+        <div id="title">
+            <img src="/img/syahuneko-ver1-r225g234b205.png" alt="ICON">
+            <h1>はんかくくんのページ</h1>
+        </div>
+        <nav id="navigation_bar">
+            <a href="/index.html" rel="noopener noreferrer"><img src="/img/home.svg" alt="">HOME</a>
+            <a href="/works/index.html" rel="noopener noreferrer"><img src="/img/package.svg" alt="">WORKS</a>
+            <a href="/apps/index.html" rel="noopener noreferrer"><img src="/img/apps.svg" alt="">APPS</a>
+            <a href="/blogs/index.html" rel="noopener noreferrer"><img src="/img/project-roadmap.svg"
+                    alt="">BLOGS</a>
+
+        </nav>
+        <div id="main_content">
+            <div class="blog_text">
+                <h1>Fusionについて</h1>
+            </div>
+            <div class="blog_text">
+                <h2>はじめに</h2>
+                <p>
+                    みなさんはじめまして。<wbr>23生P5所属のはんかくです。
+                    ここ1年間VVVFインバータの自作に苦戦中です。<wbr>電源の絶縁DCDCが作れていないのと<wbr>タイマー割り込みが<wbr>うまくできない....<br><br>
+                    この記事は<span class="weblink"><a href="https://adventar.org/calendars/10198">UEC 2 Advent Calendar 2024</a></span>日目の記事です。<wbr>
+                    n日遅刻です....すいません........<br><br>
+                    ここのところ<wbr>中間テストの勉強や<wbr>課題に追われて<wbr>時間がありませんでした....<br><br>
+                    <span class="parentheses">
+                        UEC1の枠が早々埋まって<wbr>UEC2ができたと思ったら<wbr>UEC2もまたすぐ埋まって<wbr>この日ぐらいしか枠が空いてなかった<br>
+                        昨年に引き続き<wbr>今年もドベカレ書きたい人類が<wbr>多くていいですね！
+                    </span><br><br><br><br>
+
+                    さて弊学の皆さんの中には<wbr>フュージョンと聞くと<wbr>Autodesk® Fusion(<span class="reference"><a href="#referece1">*1</a></span>)
+                    を<wbr>思い浮かべる方も多い<wbr>と思います。<wbr>
+                    ですが、<wbr>今回書くのはフュージョン（音楽）についてです。<br>
+                    <span class="parentheses">
+                        アドカレにも<wbr>「fusionかVVVFかどっちかについて書くよー」<wbr>
+                        なんて書いているし技術的なことを<wbr>書くんだろうなーと<wbr>思いがちなところですね<wbr>
+                    </span><br>
+                    「Autodesk® Fusionは知っているけど<wbr>フュージョン（音楽）は知らなかったなー」<wbr>と思った方や<wbr>
+                    「フュージョン（音楽）とはなんぞや？」と思った方、<wbr>
+                    「新しく音楽ジャンル開拓したいなー」と思っている方、<wbr>
+                    ぜひこの記事を読んで<wbr>フュージョンを聴いてみてください！！<br><br>
+                    <span class="note">
+                        【注意！！】<br>
+                        筆者は楽器や音楽理論については<wbr>ミリも知らないので<wbr>間違った情報や解釈を書いているかも<wbr>しれないです。<br>
+                        詳しく知りたい方は<wbr>各自で調べてください。
+                    </span>
+                    <br><br>
+                    <span class="parentheses">
+                        まぁどんな音楽なのか雰囲気伝わればいいっしょ
+                    </span>
+                </p>
+            </div>
+            <div class="blog_text">
+                <h2>目次</h2>
+                <ul>
+                    <li><a href="#_fusion_is">フュージョンとは</a></li>
+                    <li><a href="#_where_fusion_isplayed">こんなところで聴けるフュージョン</a></li>
+                    <li><a href="#_gamesongs_and_fusion">ゲーム音楽とフュージョン</a></li>
+                    <li><a href="#_recommend">おすすめ楽曲</a></li>
+                    <li><a href="_wrapup">まとめ</a></li>
+                </ul>
+            </div>
+            <div class="blog_text">
+                <h2 id="_fusion_is">フュージョンとは</h2>
+                <p>
+                    「ジャズとその他の音楽ジャンルが<wbr>融合（fusion）したもの」<wbr>とされています。<br><br>
+                    「フュージョン」と言うと<wbr>大体はジャズとロックの組み合わせを指す<wbr>ことが多いっぽいです。<wbr>
+                    ジャズのアドリブ性と<wbr>エレキギターのサウンドが<wbr>合わさった感じだと<wbr>
+                    自分がいつか見たYouTubeの動画では<wbr>言っていたような気がします。<br><br>
+                    次の項目で挙げる曲を聴いてみて<wbr>「こういう雰囲気の音楽を<wbr>フュージョンって言うんだーへー」<wbr>
+                    ぐらいの気持ちで<wbr>さらっと流していただいて大丈夫です。<br><br>
+                    70年代後半から80年代前半が<wbr>日本のフュージョンの全盛期と言われています<wbr>
+                    この頃はテレビ番組に<wbr>フュージョンバンドが出演していたり、<wbr>
+                    CMでフュージョンが使われていたり<wbr>していたそうです。<wbr>
+                    日本だと<wbr>CASIOPEA、<wbr>THE SQUARE、<wbr>高中正義、<wbr>角松敏生、<wbr>渡辺香津美<wbr>
+                    などが代表的なアーティストとして<wbr>挙げられています。<br>
+                    今の邦楽フュージョンシーンでは<wbr>DEZOLVEというバンドがアツいです！<br><br>
+                    このフュージョンという音楽の<wbr>どこが好きかと言うと<wbr>スタイリッシュなかっこよさですね。<wbr>
+                    なんというか<wbr>ドライブに聴きたくなる
+                    (<span class="reference"><a href="#referece2">*2</a></span>)<wbr>
+                    ようなjazzyでおしゃれな雰囲気でいて<wbr>力強いロックサウンドが合わさっている<wbr>ところが好きなのです。<br>
+                    けれどこのカッコいい音楽を<wbr>知らない人が僕の周りには多くて<wbr>
+                    みんなにも知ってほしいなーと思っています。<br><br>
+                </p>
+            </div>
+            <div class="blog_text">
+                <h2 id="_where_fusion_isplayed">こんなところで聴けるフュージョン</h2>
+                <p>
+                    インストゥルメンタルの曲が多いので<wbr>みなさんはBGMで使われてるのを聴くことが多い<wbr>かもしれないです。<wbr>
+                    テレビ番組（バラエティ、ニュース）<wbr>のBGMとかに使われてたり<wbr>ゲームBGMとかに使われてたりしてます。<br>
+                    以下にフュージョンの代表的な曲を<wbr>
+                    いくつか紹介していきます。
+                    <br><br>
+                </p>
+                <h3>THE SQUARE - TRUTH</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/BaTcoMD_WMo?si=36BmdDOiTy689SJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <p>
+                    フジテレビ「F1グランプリ」のテーマソング。<br>
+                    たぶん皆さんもイントロの部分を<wbr>聴いたことがあるのでは<wbr>ないかと思います。<wbr>
+                </p>
+
+                <h3>DIMENSION - Nudistic</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/jq9wmY8Y2iA?si=CFsg06BlnPoSF0GY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <p>
+                    「スーパーJチャンネル」の<wbr>オープニングで使われていた曲。<br>
+                    サックスのスタイリッシュなかっこよさが<wbr>ニュース番組にマッチしていますね！<wbr>
+                </p>
+                <h3>CASIOPEA - Misty Lady</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/d0yCDBnx6mA?si=KcxshTbwmZjLhT1t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <p>
+                    「三菱パジェロ」CMソング。<br>
+                    疾走感があふれている楽曲ですね！
+                </p>
+                <h3>高中正義 - READY TO FLY</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ugCTi6Ph7go?si=PCYitj2gbvD0gxuK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <p>
+                    「パイオニア」CMソング。<wbr>なんとなく夏に聴きたくなるような<wbr>
+                    夏の日差しを感じられるような<wbr>ギターが聴きどころです！<br>
+                </p>
+                <h3>DIMENSION - Break Out</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/6BjZLt-Xs0Q?si=jGEeH97vCdbNL1lC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    「月曜から夜ふかし」で<wbr>桐谷さんが株主優待を消費するために<wbr>チャリで爆走するときのBGM。<wbr>
+                </p>
+            </div>
+            <div class="blog_text">
+                <h2 id="_gamesongs_and_fusion">ゲーム音楽とフュージョン</h2>
+                <p>
+                    フュージョンにはインストゥルメンタル<wbr>という楽器主体の曲が多いため<wbr>
+                    楽器の演奏テクニックで活躍する<wbr>アーティストが多く、<wbr>
+                    JPOPの著名なバンドで<wbr>サポートメンバーをしている方も<wbr>少なからずいます。<br>
+                    これは弊学の皆さんが知っているゲーム<wbr>の音楽でも<wbr>同じようなことが言えて<wbr>
+                    ゲーム音楽のクレジットを見ると<wbr>演奏者や作曲者に<wbr>有名フュージョンバンドのメンバーがいたりします。<wbr>
+                    なので実はみなさんは気づかない間に<wbr>
+                    フュージョンを<wbr>聴いているのです！<br><br>
+                </p>
+                <p>
+                    例えば、「マリオカート8 デラックス」では<wbr>
+                    「ドルフィンみさき」や<wbr>「Big Blue」で<wbr>
+                    DIMENSIONのお二方が<wbr>ギターとアルトサックスを<wbr>担当しています。<br><br>
+                    <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Sfo2VNqxX3Y?si=lWv03V6pLJ_JzsE3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <br><br>
+                    特に「ドルフィンみさき」は、<wbr>サックスの1フレーズを海外の音楽系YouTuberが
+                    「マリオカートリック(<span class="reference"><a href="#referrece3">*3</a></span>)」
+                    として取り上げて話題になりました。<br><br>
+                    <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/3rD-tdEFKlg?si=KK-IyZNOVOZAmp0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <br><br><br>
+                </p>
+                <p>
+                    他にも「アイドルマスター」シリーズでは、<wbr>
+                    「Driving My Way」という<wbr>まさにフュージョンって感じの曲があります。<br><br>
+                    <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/w8DZNFSMuTY?si=_RERgNbchwiD0H9z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <br><br>
+                    この曲は、DEZOLVEのメンバー（当時）の<wbr>作編曲を山本真央樹と小栢伸五が、<wbr>
+                    演奏を2人の他、同じくDEZOLVEのメンバーの<wbr>北川翔也と友田ジュンが担当しています。<wbr>
+                    フュージョンで歌ものは珍しいですが、<wbr>うまい具合にフュージョン色を出していて<wbr>
+                    カッコいい曲になっています！<wbr>（詳しい話は山本真央樹さんのnoteに<wbr>
+                    <span class="weblink"><a href="https://note.com/maokiyamamoto/n/n1b55afa0a1a6">【アイマス】Driving My Wayをかいた話</a></span>
+                    ）<br><br>
+                    <span class="parentheses">
+                        作曲者の1人山本真央樹さんはアイマスPで<wbr>他にもいくつかアイマスの曲を書いています。<br>
+                        例えば「ヒトトキトキメキ」。<br>
+                        （<a href="https://youtu.be/u0p-CGszIZI?si=2qpLz_ZF9B_8wYJK">日本コロムビア公式YouTube ヒトトキトキメキ</a>）
+                        <br>
+                        楽曲に込めた思いは<wbr>真央樹さんのHPに載っています。<br>
+                        （<a href="https://maoki-yamamoto.com/works/happy-new-yeah/">Happy New Yeah!</a>）<br>
+                        他には「まほうのまくら」があります。<wbr>
+                        （<a href="https://youtu.be/exEjpg2vnPc?si=H_pm6YS-RQm1Us9Y">日本コロムビア公式YouTube まほうのまくら</a>）<br>
+                        （これらはフュージョンじゃないです）。<br>
+                        <br>
+                        またアイマスの他にも音ゲー（チュウニズム、オンゲキなど）の<wbr>
+                        楽曲も提供していてそちらもおすすめです。<br>
+                        （<a href="https://youtu.be/qJN6nnufd3A?si=N64QzR2kYW2pm4g0">geometric dance</a>）<br><br>
+                        <br>
+                    </span>
+                </p>
+            </div>
+            <div class="blog_text">
+                <h2 id="_recommend">おすすめ楽曲</h2>
+                <p>
+                    おすすめ楽曲と書いていますが、<wbr>
+                    自分の好きな曲です。
+                </p>
+                <h3>CASIOPEA - Galactic Funk</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/AKgjOCuW_MU?si=NoJGl3QZWZW-HZC8&amp;start=250" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    この曲はメンバーのソロが見どころの楽曲です。<wbr>
+                    特にキーボードソロの<wbr>この1985年の国技館ライブのバージョンは<wbr>
+                    ファンの間でも人気が高いです。<wbr>この曲の向谷さんのキーボードソロを聴くと<wbr>耳が心地いいんですよね！！<wbr>
+                    youtubで検索すると<wbr>いくつもソロパートの<wbr>コード進行や弾いてみた動画などが出てくる<wbr>
+                    ほど人気です。<br>
+                </p>
+                <h3>DIMENSION - ROUND TRIP</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/GCJE65fKRkE?si=n4AQGvUtlPfP70NH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    この曲はテレ朝の野球中継のオープニングに<wbr>使われていました。<br>
+                    イントロからサックスとエレキギターが<wbr>畳みかけてきて<wbr>盛り上がって<wbr>
+                    Aメロの力強いギターから<wbr>Bメロのシンセで溜めて<wbr>サビで一気に開放して<wbr>空がひらける様な爽やかさがあって<wbr>
+                    とてもカッコいい楽曲です！<br>
+                </p>
+                <h3>DEZOLVE - A Journey To The Cosmos</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/DKPWYzvm1VE?si=FC5IjvwNVOhuC5Os&amp;start=250" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    Aメロのどこかワクワクするような<wbr>冒険をしているような<wbr>ドラムとギターで高揚感が増す感じが<wbr>とても好きです！！<wbr>
+                    全体的に複雑なリズム、メロディーで<wbr>それがいくつかの宇宙の旅の困難を<wbr>表してるように感じられて<wbr>そこも好きです！<wbr>
+                    DEZOLVEの素晴らしい演奏テクニックを<wbr>ぜひ聴いてみてください！！<br>
+                </p>
+            </div>
+            <div class="blog_text">
+                <h2 id="_wrapup">まとめ</h2>
+                <p>
+                    いかがでしたか？<br>
+                    この記事を読んで<wbr>フュージョンがどういう音楽なのか<wbr>伝わっているのなら<wbr>幸いです。<br>
+                    「初めて聴いてみたけどいいなこれ」と思った方、<wbr>どんどん聴いていきましょう！<br>
+                    フュージョン聴き仲間が増えるのなら<wbr>筆者はうれしいです。<br>
+                </p>
+            </div>
+            <div class="blog_text">
+                <h3 id="">おまけ</h3>
+                <p>
+                    フューチャーファンクっていう<wbr>日本のシティポップをサンプリングして<wbr>
+                    作られた音楽があります。<wbr>このジャンルは昨今のcitypopブームのきっかけ<wbr>とも言われています。<br>
+                    （<span class="parentheses"><a href="https://note.com/drfunk/n/n1ee1f540f1fe">いまさら聞けない「フューチャーファンク(Future Funk)」って何？</a></span>）
+                    そのジャンルでも<wbr>日本のフュージョンが<wbr>サンプリング元になった曲がいくつかあります。<br>
+                    以下に一例をあげます。<br>
+                </p>
+                <h3>Macross 82-99 - Horsey</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/9euJUOwfbd4?si=eF1DeAH2RNw3ae2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    元ネタは「T-Square - サーキットの放浪者」。<wbr>
+                    Bメロ？の部分が繰り返し流れています。
+                </p>
+                <h3>Macross 82-99 - Night In Tokyo Pt. II</h3>
+                <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/OkFPoC370Nw?si=O5E1t3TMOrW6XbHZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>
+                    元ネタは「CASIOPEA - TAKE ME」。<wbr>
+                    ドラムが音圧の高いものになっていたり<wbr>エフェクトがかけられていたりして<wbr>
+                    グルーヴィーになっていますね。
+                </p>
+                <p>このように一味違ったフュージョン曲を<wbr>聴いてみるのもいいですね！</p>
+            </div>
+            <div class="blog_text">
+                <h3>注釈、その他</h3>
+                <span class="parentheses">
+                <p id="reference1">
+                    *1: <br>
+                    筆者3Dプリンターで造形はしたことがあるにも関わらず<wbr>
+                    autodeskfusionは使ったことが無い。←えぇ！？<wbr>
+                    きのこのような名前のハンネの先輩から<wbr>3dcadの使い方を教えてもらったから<wbr>
+                    Openscadしか使ったことが無くて、<wbr>使わなきゃなーとは思ってます......<wbr>
+                </p>
+                <p id="reference2">
+                    *2: <br>
+                    お前は免許持ってないだろ 早く取ろうねー <wbr>という声が聴こえる......
+                </p>
+                <p id="reference3">
+                    *3:<br>
+                    リックとは「ジャズのアドリブのもとになるよく使う短いフレーズ」らしい。<wbr>
+                    なるほどわからん。初めは「マリオカートトリック」のゴマキャンかと思った。
+                </p>
+                </span>
+            </div>
+        </div> 
+
+</body>
+
+</html>
